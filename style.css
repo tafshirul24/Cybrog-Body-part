@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0a0f1a;
+    color: #cccccc;
+  }
+  
+  /* Navbar */
+  header {
+    background-color: #0d1321;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #00f5d4;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2em;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #0ff;
+  }
+  
+  /* Hero Section */
+  #hero {
+    height: 100vh;
+    background: url('Background.jpg') no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    color: #00f5d4;
+    text-shadow: 0 0 10px #00f5d4;
+  }
+  
+  #hero p {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #cccccc;
+  }
+  
+  #hero button {
+    margin-top: 25px;
+    padding: 12px 30px;
+    background-color: transparent;
+    border: 2px solid #00f5d4;
+    color: #00f5d4;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.4s ease;
+  }
+  
+  #hero button:hover {
+    background-color: #00f5d4;
+    color: #0a0f1a;
+    transform: scale(1.05);
+  }
+  
+  /* About Section */
+  #about {
+    padding: 60px 20px;
+    background-color: #0d1321;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00f5d4;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Products Section */
+  #products {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product {
+    margin: 15px;
+    width: 250px;
+    background-color: #0d1321;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .product:hover {
+    transform: scale(1.05);
+  }
+  
+  .product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .product h3 {
+    color: #00f5d4;
+    margin: 10px 0;
+  }
+  
+  .product p {
+    margin-bottom: 15px;
+  }
+  
+  /* Services */
+  #services {
+    background-color: #0a0f1a;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .service {
+    margin: 15px;
+    width: 300px;
+    padding: 20px;
+    background-color: #0d1321;
+    border-radius: 10px;
+  }
+  
+  /* Why Choose Us */
+  #choose {
+    padding: 60px 20px;
+    background-color: #0d1321;
+    text-align: center;
+  }
+  
+  .choose-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .choose-item {
+    margin: 15px;
+    width: 300px;
+    padding: 20px;
+    background-color: #0a0f1a;
+    border: 2px solid #00f5d4;
+    border-radius: 10px;
+  }
+  
+  /* Contact */
+  #contact {
+    padding: 60px 20px;
+    background-color: #0a0f1a;
+    text-align: center;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    background: #111;
+    color: #fff;
+    border: 1px solid #00f5d4;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #00f5d4;
+    color: #0a0f1a;
+    padding: 12px 30px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0ff;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0d1321;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+  }
+  
+  
